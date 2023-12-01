@@ -1,4 +1,4 @@
-[DEMO](https://marker-map-8d34b656bbdd.herokuapp.com/)
+[DEMO](https://map-markers-31bf70606deb.herokuapp.com/)
 
 Requirements:
 
