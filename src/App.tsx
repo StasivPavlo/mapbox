@@ -61,6 +61,7 @@ function App() {
     >
       {markers.map((marker, i) => (
         <Marker
+          key={marker.Location.Lat.toLocaleString() + marker.Location.Long.toLocaleString()}
           longitude={marker.Location.Long}
           latitude={marker.Location.Lat}
         >
