@@ -47,13 +47,11 @@ function App() {
   }, [markers]);
 
   useEffect(() => {
-    if (currentDocRef) {
-      updateDoc(currentDocRef, {
-        ...markerObj,
-      })
-    }
+    console.log(markerObj)
+    updateDoc(currentDocRef, {
+      ...markerObj,
+    });
   }, [markerObj]);
-
 
   return (
     <Map
