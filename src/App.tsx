@@ -47,7 +47,6 @@ function App() {
   }, [markers]);
 
   useEffect(() => {
-    console.log(markerObj)
     updateDoc(currentDocRef, {
       ...markerObj,
     });
