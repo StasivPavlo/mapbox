@@ -1,4 +1,4 @@
-[DEMO](https://map-markers-31bf70606deb.herokuapp.com/)
+[DEMO](https://stasivpavlo.github.io/mapbox/)
 
 Requirements:
 
